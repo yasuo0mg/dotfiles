@@ -3,7 +3,7 @@
 [url "https://7b81e68af18f0211dca120e09abc7dbee6304b5c:x-oauth-basic@github.com/"]
   insteadOf = https://github.com/
 [user]
-  email = yasuo.cpff@gmail.com
+  email = omoriyasuo.dev@gmail.com
   name = omoriyasuo
 [core]
   excludesfile = ~/.gitignore_global
