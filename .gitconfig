@@ -1,7 +1,3 @@
-[ghq]
-  root = ~/src
-[url "https://7b81e68af18f0211dca120e09abc7dbee6304b5c:x-oauth-basic@github.com/"]
-  insteadOf = https://github.com/
 [user]
   email = omoriyasuo.dev@gmail.com
   name = omoriyasuo
