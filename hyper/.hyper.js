@@ -35,12 +35,24 @@ module.exports = {
     ////////////////////////////////
     // Terminal Color Settings
     ////////////////////////////////
-    cursorColor: '#C7C329',
+    cursorColor: '#fff',
     cursorAccentColor: '#161616',
     foregroundColor: '#dbdbdb',
     backgroundColor: '#1c1b22',
     selectionColor: '#dbdbdb',
     borderColor: '#0f0f0f',
+    fontWeightBold: 'normal',
+    colors: {
+      black: '#161616',
+      red: '#f25287',
+      green: '#007580', // ls -G
+      // yellow: '#d8c56f',
+      yellow: '#28abb9',
+      blue: '#67c',
+      // magenta: '#d46a6a',
+      cyan: '#dbdbdb',
+      white: '#dbdbdb',
+    },
 
     // custom CSS to embed in the main window
     css: '',
@@ -59,28 +71,6 @@ module.exports = {
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
     padding: '12px 14px',
-
-    // the full list. if you're going to provide the full color palette,
-    // including the 6 x 6 color cubes and the grayscale map, just provide
-    // an array here instead of a color map object
-    colors: {
-      black: '#000000',
-      red: '#C51E14',
-      green: '#1DC121',
-      yellow: '#C7C329',
-      blue: '#0A2FC4',
-      magenta: '#C839C5',
-      cyan: '#20C5C6',
-      white: '#C7C7C7',
-      lightBlack: '#686868',
-      lightRed: '#FD6F6B',
-      lightGreen: '#67F86F',
-      lightYellow: '#FFFA72',
-      lightBlue: '#6A76FB',
-      lightMagenta: '#FD7CFC',
-      lightCyan: '#68FDFE',
-      lightWhite: '#FFFFFF',
-    },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
@@ -145,9 +135,8 @@ module.exports = {
     "hyper-opacity",
     "hyper-search",
     "hyperlinks",
-    "hyperborder",
     "hyper-tab-icons",
-    "hyperterm-summon"
+    "hyperterm-summon",
   ],
 
   // in development, you can create a directory under

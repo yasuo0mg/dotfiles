@@ -8,8 +8,8 @@ precmd () {
   [[ -n "$vcs_info_msg_0_" ]] && psvar[1]="$vcs_info_msg_0_"
 }
 
-# hyperに色は上書きされてる
-PROMPT="٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{green}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
+# when using hyper, the colors are overwritten
+PROMPT="%{${fg[red]}%}٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{red}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
 # 自動補完
 autoload -U compinit
 compinit -C
