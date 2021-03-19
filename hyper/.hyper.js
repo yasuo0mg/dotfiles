@@ -9,10 +9,10 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 12,
+    fontSize: 15,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: 'Ricty Nerd Font',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -147,7 +147,6 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyper-aura-theme",
     "hypercwd",
     "gitrocket",
     "hyper-confirm",

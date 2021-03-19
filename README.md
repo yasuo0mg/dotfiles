@@ -3,5 +3,5 @@
 ### hyper.js
 
 ```
-$ cp dotfiles/.hyper.js ~/.hyper.js
+$ ln -sf dotfiles/hyper/.hyper.js .hyper.js
 ```
