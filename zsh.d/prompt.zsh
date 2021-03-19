@@ -7,11 +7,15 @@ precmd () {
   LANG=en_US.UTF-8 vcs_info
   [[ -n "$vcs_info_msg_0_" ]] && psvar[1]="$vcs_info_msg_0_"
 }
-PROMPT="%{${fg[yellow]}%}[%~%1(v|%F{green}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
 
+# hyperに色は上書きされてる
+PROMPT="٩(◕‿◕｡)۶%{${fg[green]}%}[%~%1(v|%F{magenta}%1v%f|)%{${fg[green]}%}]%{${reset_color}%}%b "
 # 自動補完
 autoload -U compinit
 compinit -C
+
+## タブ補完時に大文字小文字を区別しない
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # コマンドラインで記号の入力を許可する
 setopt nonomatch

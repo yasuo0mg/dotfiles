@@ -155,7 +155,8 @@ module.exports = {
     "hyper-search",
     "hyperborder",
     "hyperline",
-    "hyperlinks"
+    "hyperlinks",
+    "hyper-aura-theme"
   ],
 
   // in development, you can create a directory under
