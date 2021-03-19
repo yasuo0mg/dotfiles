@@ -26,30 +26,21 @@ module.exports = {
     // letter spacing as a relative unit
     letterSpacing: 0,
 
-    // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(248,28,229,0.8)',
-
-    // terminal text color under BLOCK cursor
-    cursorAccentColor: '#000',
-
     // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
     cursorShape: 'BLOCK',
 
     // set to `true` (without backticks and without quotes) for blinking cursor
     cursorBlink: true,
 
-    // color of the text
-    foregroundColor: '#fff',
-
-    // terminal background color
-    // opacity is only supported on macOS
-    backgroundColor: '#000',
-
-    // terminal selection color
-    selectionColor: 'rgba(248,28,229,0.3)',
-
-    // border color (window, tabs)
-    borderColor: '#333',
+    ////////////////////////////////
+    // Terminal Color Settings
+    ////////////////////////////////
+    cursorColor: '#C7C329',
+    cursorAccentColor: '#161616',
+    foregroundColor: '#dbdbdb',
+    backgroundColor: '#1c1b22',
+    selectionColor: '#dbdbdb',
+    borderColor: '#0f0f0f',
 
     // custom CSS to embed in the main window
     css: '',
@@ -153,10 +144,10 @@ module.exports = {
     "hyper-highlight-active-pane",
     "hyper-opacity",
     "hyper-search",
-    "hyperborder",
-    "hyperline",
     "hyperlinks",
-    "hyper-aura-theme"
+    "hyperborder",
+    "hyper-tab-icons",
+    "hyperterm-summon"
   ],
 
   // in development, you can create a directory under
