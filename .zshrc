@@ -10,19 +10,14 @@ function profile() {
 }
 
 
-# Import child configs
 ZSHHOME="${HOME}/dotfiles/zsh.d"
 
 source $ZSHHOME/alias.sh
 source $ZSHHOME/color.zsh
 source $ZSHHOME/editor.zsh
 source $ZSHHOME/eval.zsh
-source $ZSHHOME/gcloud.zsh
 source $ZSHHOME/git.zsh
 source $ZSHHOME/keyboard.zsh
 source $ZSHHOME/path.zsh
-source $ZSHHOME/peco.zsh
-source $ZSHHOME/pet.zsh
 source $ZSHHOME/process.zsh
 source $ZSHHOME/prompt.zsh
-source $ZSHHOME/zaw.zsh
