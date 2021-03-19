@@ -1,7 +1,7 @@
 # 色についての設定
 autoload colors
 colors
-# hyperのテーマに依存
-# export LSCOLORS=gxfxxxxxcxxxxxxxxxgxgx
-# export LS_COLORS='di=01;36:ln=01;35:ex=01;33'
-# zstyle ':completion:*' list-colors '${LS_COLORS}'
+# https://geoff.greer.fm/lscolors/
+export LSCOLORS=cxfxcxdxbxegedabagacad
+export LS_COLORS=di='di=32:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43'
+zstyle ':completion:*' list-colors '${LS_COLORS}'

@@ -9,7 +9,7 @@ precmd () {
 }
 
 # hyperに色は上書きされてる
-PROMPT="٩(◕‿◕｡)۶%{${fg[green]}%}[%~%1(v|%F{magenta}%1v%f|)%{${fg[green]}%}]%{${reset_color}%}%b "
+PROMPT="٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{green}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
 # 自動補完
 autoload -U compinit
 compinit -C
@@ -24,3 +24,9 @@ setopt nonomatch
 HISTSIZE=10000
 SAVEHIST=10000
 setopt hist_ignore_dups
+
+# コマンドミスを修正
+setopt correct
+
+# cdの後にlsを実行
+chpwd() { ls -laG }
