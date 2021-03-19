@@ -149,9 +149,9 @@
   "liveshare.authenticationProvider": "GitHub",
   "go.toolsManagement.autoUpdate": true,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#19d3da",
-    "statusBar.noFolderBackground": "#19d3da",
-    "statusBar.debuggingBackground": "#19d3da",
-    "statusBar.foreground": "#161821"
+    "statusBar.background": "#161821",
+    "statusBar.noFolderBackground": "#161821",
+    "statusBar.debuggingBackground": "#161821",
+    "statusBar.foreground": "#818596"
   },
 }
