@@ -1,0 +1,157 @@
+{
+  // Editor
+  "editor.fontSize": 19,
+  "editor.fontWeight": "500",
+  "editor.fontFamily": "Ricty Nerd Font",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  "editor.renderControlCharacters": true, // 制御文字を表示する
+  "editor.renderWhitespace": "boundary", // 空白文字を表示する
+  "editor.renderLineHighlight": "all", // カーソル行を強調する
+  "editor.cursorBlinking": "phase", // カーソルを点滅させる
+  "editor.minimap.maxColumn": 40, // ミニマップの幅を40文字分に設定する
+  "editor.minimap.showSlider": "always", // ミニマップ上にスライダーを常に表示するようにする
+  // Terminal
+  "terminal.integrated.fontFamily": "Ricty Nerd Font",
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorBlinking": true,
+  // Files
+  // l.26とl.27合わせて『ファイルの最後に必ず1行だけ空行を残す』になる
+  "files.insertFinalNewline": true, // 保存時にファイルの最後に空行を挿入する
+  "files.trimFinalNewlines": true, // 保存時にファイルの最後に存在する空行を削除する
+  "files.trimTrailingWhitespace": true, // 保存時に行の終端に存在する空白文字を削除する
+  // Workbench
+  "workbench.startupEditor": "newUntitledFile", // 起動時に「ようこそ」画面表示しない
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  // Explorer
+  "explorer.confirmDragAndDrop": true, // ドラッグ&ドロップでファイル移動時に確認ダイアログ表示する
+  "explorer.confirmDelete": true, // ファイル削除時に確認ダイアログ表示する
+  // JavaScript & TypeScript
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  // Golang
+  "go.useLanguageServer": true,
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "editor.formatOnSave": true,
+      "source.organizeImports": true
+    }
+  },
+  "gopls": {
+    "completeUnimported": true, //autocomplete unimported packages
+    "deepCompletion": true //enable deep completion
+  },
+  // Ruby, Rubocop
+  "ruby.format": "rubocop",
+  "ruby.intellisense": "rubyLocate",
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "ruby.useLanguageServer": true,
+  "ruby.rubocop.executePath": "/Users/yasuo/.rbenv/shims/",
+  // Markdown
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "files.trimTrailingWhitespace": false // 行末の空白に意味があるから
+  },
+  // Python
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  // Vim
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ], // jj goes from insert mode to normal mode.
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.useSystemClipboard": true, // システムのClipboardにコピー
+  "vim.cmdLineInitialColon": true, // 検索にコロンを入れる
+  "vim.hlsearch": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": [
+    "#161821",
+    "#818596"
+  ],
+  "vim.statusBarColors.insert": [
+    "#19d3da",
+    "#161821"
+  ],
+  "vim.statusBarColors.visual": [
+    "#ff577f",
+    "#161821"
+  ],
+  "vim.statusBarColors.visualline": [
+    "#ff577f",
+    "#161821"
+  ],
+  "vim.statusBarColors.visualblock": [
+    "#ff577f",
+    "#161821"
+  ],
+  "vim.statusBarColors.replace": [
+    "#E2A478",
+    "#161821"
+  ],
+  "vim.statusBarColors.commandlineinprogress": [
+    "#ffe227",
+    "#161821"
+  ],
+  "vim.statusBarColors.searchinprogressmode": [
+    "#ffe227",
+    "#161821"
+  ],
+  "vim.statusBarColors.easymotionmode": [
+    "#ffe227",
+    "#161821"
+  ],
+  "vim.statusBarColors.easymotioninputmode": [
+    "#ffe227",
+    "#161821"
+  ],
+  "vim.statusBarColors.surroundinputmode": [
+    "#ffe227",
+    "#161821"
+  ],
+  // liveserver
+  "liveServer.settings.donotShowInfoMsg": true,
+  // Git
+  "git.autofetch": true,
+  "git.autofetchPeriod": 300, // 5分毎にgit fetchする
+  // Tabnine
+  "tabnine.experimentalAutoImports": true, // Module Inportの時にTabnineによって推薦させる
+  // Extensions
+  "extensions.ignoreRecommendations": false,
+  "liveshare.authenticationProvider": "GitHub",
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#161821",
+    "statusBar.noFolderBackground": "#161821",
+    "statusBar.debuggingBackground": "#161821",
+    "statusBar.foreground": "#818596"
+  },
+}
