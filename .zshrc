@@ -10,7 +10,7 @@ function profile() {
 }
 
 
-ZSHHOME="${HOME}/dotfiles/zsh.d"
+ZSHHOME="${HOME}/dotfiles/zsh"
 
 source $ZSHHOME/alias.sh
 source $ZSHHOME/color.zsh
