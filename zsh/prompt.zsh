@@ -9,7 +9,7 @@ precmd () {
 }
 
 # when using hyper, the colors are overwritten
-PROMPT="%{${fg[red]}%}٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{red}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
+PROMPT="%{${fg[yellow]}%}٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{red}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
 # 自動補完
 autoload -U compinit
 compinit -C
