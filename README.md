@@ -36,7 +36,8 @@ $ chmod +x link.sh & ./link.sh
 ```
 
 6. Install packages via brew
-   Installed packages are in `/usr/local/celler` and linked to `/usr/local/bin`.
+
+Installed packages are in `/usr/local/celler` and linked to `/usr/local/bin`.
 
 ```
 $ brew bundle
