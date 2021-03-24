@@ -132,11 +132,10 @@ module.exports = {
     "gitrocket",
     "hyper-confirm",
     "hyper-highlight-active-pane",
-    "hyper-opacity",
     "hyper-search",
     "hyperlinks",
     "hyper-tab-icons",
-    "hyperterm-summon",
+    "hyperterm-summon"
   ],
 
   // in development, you can create a directory under
