@@ -8,8 +8,8 @@ precmd () {
   [[ -n "$vcs_info_msg_0_" ]] && psvar[1]="$vcs_info_msg_0_"
 }
 
-# when using hyper, the colors are overwritten
-PROMPT="٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{red}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
+# when using hyper, the colors are overwritten in .hyper.js
+PROMPT="٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{blue}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
 # 自動補完
 autoload -U compinit
 compinit -C
