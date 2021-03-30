@@ -12,7 +12,8 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily: 'Ricty Nerd Font',
+    // fontFamily: 'Ricty Nerd Font',
+    fontFamily: 'Hack Nerd Font',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'bold',

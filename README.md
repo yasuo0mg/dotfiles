@@ -64,3 +64,8 @@ Install extensions.
 ```
 $ chmod +x vscode/extensions.sh & exec ./vscode/extensions.sh
 ```
+
+### Alfred4
+
+Go to preferences > Features.
+then check Folders and Images.
