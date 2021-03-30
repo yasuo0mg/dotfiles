@@ -14,6 +14,7 @@
   "editor.cursorBlinking": "phase", // カーソルを点滅させる
   "editor.minimap.maxColumn": 40, // ミニマップの幅を40文字分に設定する
   "editor.minimap.showSlider": "always", // ミニマップ上にスライダーを常に表示するようにする
+  "editor.accessibilitySupport": "on",
   // Terminal
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
@@ -149,9 +150,9 @@
   "liveshare.authenticationProvider": "GitHub",
   "go.toolsManagement.autoUpdate": true,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#19d3da",
-    "statusBar.noFolderBackground": "#19d3da",
-    "statusBar.debuggingBackground": "#19d3da",
-    "statusBar.foreground": "#161821"
-  }
+    "statusBar.background": "#161821",
+    "statusBar.noFolderBackground": "#161821",
+    "statusBar.debuggingBackground": "#161821",
+    "statusBar.foreground": "#818596"
+  },
 }
