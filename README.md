@@ -29,18 +29,18 @@ $ git clone https://github.com/omoriyasuo/dotfiles.git ~/dotfiles
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-5. Create symbolic link
-
-```
-$ chmod +x link.sh & ./link.sh
-```
-
-6. Install packages via brew
+5. Install packages via brew
 
 Installed packages are in `/usr/local/celler` and linked to `/usr/local/bin`.
 
 ```
 $ brew bundle
+```
+
+6. Create symbolic link
+
+```
+$ chmod +x link.sh & ./link.sh
 ```
 
 ### nvm
