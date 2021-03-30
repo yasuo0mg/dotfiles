@@ -71,7 +71,6 @@ cask 'jetbrains-toolbox'
 cask 'ngrok'
 cask 'postman'
 cask 'visual-studio-code'
-cask 'visual-studio'
 
 # Virtual Machines (& Docker)
 cask 'docker'
@@ -83,7 +82,7 @@ cask 'docker'
 # Communication/Social
 cask 'discord'
 cask 'slack'
-cask 'zoomus'
+cask 'zoom'
 
 # Fonts
 cask 'font-fira-code'
