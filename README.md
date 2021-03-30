@@ -40,7 +40,13 @@ $ brew bundle
 6. Create symbolic link
 
 ```
-$ chmod +x link.sh & ./link.sh
+$ chmod +x link.sh && ./link.sh
+```
+
+7. setup macos system preferences
+
+```
+$ chmod +x .macos && ./.macos
 ```
 
 ### nvm
