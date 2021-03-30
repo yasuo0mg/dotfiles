@@ -46,11 +46,10 @@ module.exports = {
     colors: {
       black: '#161616',
       red: '#f25287',
-      green: '#007580', // ls -G
-      // yellow: '#d8c56f',
-      yellow: '#28abb9',
-      blue: '#67c',
-      // magenta: '#d46a6a',
+      green: '#32de8a', // ls -G
+      yellow: '#e9df00',
+      blue: '#4d6cfa',
+      // magenta: '#',
       cyan: '#dbdbdb',
       white: '#dbdbdb',
     },
