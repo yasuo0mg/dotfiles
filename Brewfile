@@ -45,6 +45,7 @@ cask_args appdir: '/Applications'
 
 # Utiliity
 cask 'deepl'
+cask 'fliqlo'
 cask 'notion'
 cask 'karabiner-elements'
 

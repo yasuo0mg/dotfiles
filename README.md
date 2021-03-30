@@ -69,3 +69,7 @@ $ chmod +x vscode/extensions.sh & exec ./vscode/extensions.sh
 
 Go to preferences > Features.
 then check Folders and Images.
+
+### Screensaver
+
+Go to System Preferences > Desktop & Screen Saver > choose `Fliqlo`
