@@ -1,0 +1,15 @@
+files=(
+  "./macos/dock.sh"
+  "./macos/finder.sh"
+  "./macos/keyboard.sh"
+  "./macos/language-region.sh"
+  "./macos/menubar.sh"
+  "./macos/mouse.sh"
+  "./macos/screenshots.sh"
+)
+
+for file in "${files[@]}" ; do
+    echo $file
+    chmod +x $file
+    $file
+done

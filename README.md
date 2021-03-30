@@ -1,6 +1,6 @@
 # dotfiles
 
-my dotfiles target macOS systems.
+My dotfiles target macOS systems.
 
 ### Setup
 
