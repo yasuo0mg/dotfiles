@@ -1,4 +1,4 @@
-alias gcm='git commit -a -m'
+alias gcm='git commit -m'
 alias delete-merged-branches="git branch --merged | grep -v '*' | xargs -I % git branch -d %"
 alias gadd='git add .'
 alias gp='git push origin `git rev-parse --abbrev-ref HEAD`'
