@@ -34,7 +34,7 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 Installed packages are in `/usr/local/celler` and linked to `/usr/local/bin`.
 
 ```
-$ brew bundle
+$ brew bundle ---global
 ```
 
 6. Create symbolic link
