@@ -85,7 +85,6 @@ cask 'slack'
 cask 'zoom'
 
 # Fonts
-cask 'font-fira-code'
 cask 'font-hack-nerd-font'
 
 # Media
