@@ -1,6 +1,6 @@
 ZSHHOME="${HOME}/dotfiles/zsh"
 
-source $ZSHHOME/alias.sh
+source $ZSHHOME/alias.zsh
 source $ZSHHOME/color.zsh
 source $ZSHHOME/editor.zsh
 source $ZSHHOME/git.zsh
