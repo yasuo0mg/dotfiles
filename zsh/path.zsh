@@ -1,5 +1,6 @@
 export MANPATH=/opt/local/man:$MANPATH
 export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 export PATH=$PATH:/usr/local/bin/mysql
 export PATH=$PATH:/opt/homebrew/bin
 export PATH=/opt/local/bin:/opt/local/sbin/:$PATH
