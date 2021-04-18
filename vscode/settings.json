@@ -30,7 +30,7 @@
   // Workbench
   "workbench.startupEditor": "newUntitledFile", // 起動時に「ようこそ」画面表示しない
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.preferredDarkColorTheme": "GitHub Dark",
   // Explorer
   "explorer.confirmDragAndDrop": true, // ドラッグ&ドロップでファイル移動時に確認ダイアログ表示する
