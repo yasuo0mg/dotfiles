@@ -40,6 +40,7 @@
 - [Sass Indented](https://github.com/TheRealSyler/vscode-sass-indented)
 - [Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, Go, Java, Ruby, C/C++, HTML/CSS, C#, Rust, SQL, Bash, Kotlin, React](https://github.com/codota/tabnine-vscode)
 - [Vim](https://github.com/VSCodeVim/Vim)
+- [Gitmoji] (https://github.com/vtrois/gitmoji-vscode)
 - [TODO Highlight](https://github.com/wayou/vscode-todo-highlight)
 - [VSCode Ruby](https://github.com/rubyide/vscode-ruby)
 

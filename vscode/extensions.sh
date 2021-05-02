@@ -40,6 +40,7 @@ exts=(
     "syler.sass-indented"
     "TabNine.tabnine-vscode"
     "vscodevim.vim"
+    "vtrois.gitmoji-vscode"
     "wayou.vscode-todo-highlight"
     "wingrunr21.vscode-ruby"
 )
