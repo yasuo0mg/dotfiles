@@ -9,7 +9,6 @@ tap 'shopify/shopify'
 
 # brew (mainly CLI tools)
 brew 'bat'
-brew 'boost'
 brew 'cmake'
 brew 'gcc'
 brew 'geckodriver'
@@ -39,6 +38,7 @@ brew 'zsh'
 brew 'zsh-completions'
 brew 'sanemat/font/ricty', args: ['with-powerline']
 brew 'shopify/shopify/themekit'
+# brew 'zsh-autosuggestions'
 
 # cask (An extension of homebrew to install macOS native apps)
 cask_args appdir: '/Applications'
