@@ -17,7 +17,7 @@
   "editor.accessibilitySupport": "on",
   // Terminal
   "terminal.integrated.fontFamily": "Hack Nerd Font",
-  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.defaultProfile.osx": "/usr/local/bin/zsh",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontSize": 14,
@@ -27,6 +27,8 @@
   "files.insertFinalNewline": true, // 保存時にファイルの最後に空行を挿入する
   "files.trimFinalNewlines": true, // 保存時にファイルの最後に存在する空行を削除する
   "files.trimTrailingWhitespace": true, // 保存時に行の終端に存在する空白文字を削除する
+  "files.hotExit": "off",
+  "window.restoreWindows": "none",
   // Workbench
   "workbench.startupEditor": "newUntitledFile", // 起動時に「ようこそ」画面表示しない
   "workbench.iconTheme": "material-icon-theme",
@@ -150,9 +152,15 @@
   "liveshare.authenticationProvider": "GitHub",
   "go.toolsManagement.autoUpdate": true,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#19d3da",
-    "statusBar.noFolderBackground": "#19d3da",
-    "statusBar.debuggingBackground": "#19d3da",
-    "statusBar.foreground": "#161821"
+    "statusBar.background": "#161821",
+    "statusBar.noFolderBackground": "#161821",
+    "statusBar.debuggingBackground": "#161821",
+    "statusBar.foreground": "#818596"
   },
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
 }

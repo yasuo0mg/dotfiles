@@ -39,6 +39,8 @@ brew 'zsh'
 brew 'zsh-completions'
 brew 'sanemat/font/ricty', args: ['with-powerline']
 brew 'shopify/shopify/themekit'
+brew 'awscli'
+brew 'saml2aws'
 
 # cask (An extension of homebrew to install macOS native apps)
 cask_args appdir: '/Applications'
