@@ -21,6 +21,7 @@ brew 'jq'
 # brew 'mas'
 brew 'mysql'
 brew 'nvm'
+brew 'peco'
 brew 'postgresql', restart_service: true
 brew 'pyenv'
 brew 'ruby-build'
