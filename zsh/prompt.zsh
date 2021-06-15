@@ -41,3 +41,13 @@ function peco-history-selection() {
 zle -N peco-history-selection
 bindkey '^R' peco-history-selection
 
+# https://github.com/goldeneggg/lsec2
+# list view of aws ec2 instances
+lssh () {
+  IP=$(lsec2 $@ | peco | awk -F "\t" '{print $2}')
+  if [ $? -eq 0 -a "${IP}" != "" ]
+  then
+      echo ">>> SSH to ${IP}"
+      ssh ${IP}
+  fi
+}
