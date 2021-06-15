@@ -70,7 +70,6 @@
     "rubocop": true
   },
   "ruby.useLanguageServer": true,
-  "ruby.rubocop.executePath": "/Users/yasuo/.rbenv/shims/",
   // Markdown
   "[markdown]": {
     "editor.wordWrap": "off",
@@ -156,11 +155,5 @@
     "statusBar.noFolderBackground": "#161821",
     "statusBar.debuggingBackground": "#161821",
     "statusBar.foreground": "#818596"
-  },
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
+  }
 }
