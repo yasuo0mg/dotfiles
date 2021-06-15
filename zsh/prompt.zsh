@@ -30,3 +30,14 @@ setopt correct
 
 # cdの後にlsを実行
 chpwd() { ls -lG }
+
+# Ctrl + Rで履歴検索できる(peco)
+function peco-history-selection() {
+    BUFFER=`history -n 1 | tail -r  | awk '!a[$0]++' | peco`
+    CURSOR=$#BUFFER
+    zle reset-prompt
+}
+
+zle -N peco-history-selection
+bindkey '^R' peco-history-selection
+
