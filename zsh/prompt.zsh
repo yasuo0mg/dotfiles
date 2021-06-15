@@ -9,7 +9,8 @@ precmd () {
 }
 
 # when using hyper, the colors are overwritten in .hyper.js
-PROMPT="٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{blue}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b "
+PROMPT="٩(◕‿◕｡)۶%{${fg[yellow]}%}[%~%1(v|%F{blue}%1v%f|)%{${fg[yellow]}%}]%{${reset_color}%}%b
+> "
 # 自動補完
 autoload -U compinit
 compinit -C
