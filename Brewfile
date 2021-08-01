@@ -75,6 +75,7 @@ cask 'jetbrains-toolbox'
 cask 'ngrok'
 cask 'postman'
 cask 'visual-studio-code'
+cask 'iterm2'
 
 # Virtual Machines (& Docker)
 cask 'docker'
