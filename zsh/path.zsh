@@ -17,3 +17,11 @@ fpath=(
   $fpath
 )
 $(brew --prefix asdf)/asdf.sh
+
+# asdf
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
+export ASDF_DATA_DIR=/opt/asdf-data
+. /opt/asdf/asdf.sh
+. /opt/asdf/completions/asdf.bash
