@@ -43,6 +43,7 @@ brew 'awscli'
 brew 'saml2aws'
 brew 'asdf'
 brew 'kubectl'
+brew 'minikube'
 # brew 'zsh-autosuggestions'
 
 # cask (An extension of homebrew to install macOS native apps)
