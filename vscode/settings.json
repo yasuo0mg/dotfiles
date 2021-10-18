@@ -37,6 +37,7 @@
   // Explorer
   "explorer.confirmDragAndDrop": true, // ドラッグ&ドロップでファイル移動時に確認ダイアログ表示する
   "explorer.confirmDelete": true, // ファイル削除時に確認ダイアログ表示する
+  "explorer.compactFolders": false, // ディレクトリのパスは展開する
   // JavaScript & TypeScript
   "[javascript]": {
     "editor.tabSize": 2
