@@ -44,6 +44,9 @@ brew 'saml2aws'
 brew 'asdf'
 brew 'kubectl'
 brew 'minikube'
+brew 'kube-ps1'
+brew 'kubectx'
+brew 'stern'
 # brew 'zsh-autosuggestions'
 
 # cask (An extension of homebrew to install macOS native apps)
