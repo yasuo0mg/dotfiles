@@ -49,7 +49,8 @@
     "editor.tabSize": 2
   },
   "[typescriptreact]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Golang
   "go.useLanguageServer": true,
@@ -155,6 +156,7 @@
     "statusBar.background": "#161821",
     "statusBar.noFolderBackground": "#161821",
     "statusBar.debuggingBackground": "#161821",
-    "statusBar.foreground": "#818596"
+    "statusBar.foreground": "#818596",
+    "statusBar.debuggingForeground": "#818596"
   }
 }
