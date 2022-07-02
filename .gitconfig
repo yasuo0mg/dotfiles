@@ -53,3 +53,5 @@
     git tag -a ${tag} -m \"${comment}\";\
     git push --tag;\
   };f"
+[init]
+	defaultBranch = main
