@@ -82,6 +82,7 @@ cask 'ngrok'
 cask 'postman'
 cask 'visual-studio-code'
 cask 'iterm2'
+cask 'sequel-ace'
 
 # Virtual Machines (& Docker)
 cask 'docker'
