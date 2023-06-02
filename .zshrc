@@ -8,3 +8,5 @@ source $ZSHHOME/path.zsh
 source $ZSHHOME/prompt.zsh
 source $ZSHHOME/aws.zsh
 source $ZSHHOME/k8s.zsh
+
+export PRETTIER_RUBY_HOST=/tmp/prettier-ruby-host.sock

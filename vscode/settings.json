@@ -27,8 +27,6 @@
   "files.insertFinalNewline": true, // 保存時にファイルの最後に空行を挿入する
   "files.trimFinalNewlines": true, // 保存時にファイルの最後に存在する空行を削除する
   "files.trimTrailingWhitespace": true, // 保存時に行の終端に存在する空白文字を削除する
-  "files.hotExit": "off",
-  "window.restoreWindows": "none",
   // Workbench
   "workbench.startupEditor": "newUntitledFile", // 起動時に「ようこそ」画面表示しない
   "workbench.iconTheme": "material-icon-theme",
@@ -52,8 +50,6 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // Golang
-  "go.useLanguageServer": true,
   "[go]": {
     "editor.tabSize": 4,
     "editor.codeActionsOnSave": {
@@ -61,40 +57,21 @@
       "source.organizeImports": true
     }
   },
-  "gopls": {
-    "completeUnimported": true, //autocomplete unimported packages
-    "deepCompletion": true //enable deep completion
-  },
-  // Ruby, Rubocop
-  "ruby.format": "rubocop",
-  "ruby.intellisense": "rubyLocate",
-  "ruby.lint": {
-    "rubocop": true
-  },
-  "ruby.useLanguageServer": true,
   // Markdown
   "[markdown]": {
     "editor.wordWrap": "off",
     "files.trimTrailingWhitespace": false // 行末の空白に意味があるから
   },
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+  },
+  "rubyLsp.formatter": "syntax_tree",
   // Python
   "[python]": {
     "editor.tabSize": 4
   },
-  // Vim
-  "vim.insertModeKeyBindings": [
-    {
-      "before": [
-        "j",
-        "j"
-      ], // jj goes from insert mode to normal mode.
-      "after": [
-        "<Esc>"
-      ]
-    }
-  ],
   "vim.useSystemClipboard": true, // システムのClipboardにコピー
-  "vim.cmdLineInitialColon": true, // 検索にコロンを入れる
   "vim.hlsearch": true,
   "vim.statusBarColorControl": true,
   "vim.statusBarColors.normal": [
@@ -141,22 +118,20 @@
     "#ffe227",
     "#161821"
   ],
-  // liveserver
-  "liveServer.settings.donotShowInfoMsg": true,
   // Git
   "git.autofetch": true,
   "git.autofetchPeriod": 300, // 5分毎にgit fetchする
-  // Tabnine
-  "tabnine.experimentalAutoImports": true, // Module Inportの時にTabnineによって推薦させる
   // Extensions
   "extensions.ignoreRecommendations": false,
-  "liveshare.authenticationProvider": "GitHub",
-  "go.toolsManagement.autoUpdate": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#161821",
     "statusBar.noFolderBackground": "#161821",
     "statusBar.debuggingBackground": "#161821",
     "statusBar.foreground": "#818596",
     "statusBar.debuggingForeground": "#818596"
-  }
+  },
+  "audioCues.volume": 0,
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "develop"
+  ]
 }

@@ -13,3 +13,5 @@ ln -sf ~/dotfiles/karabiner/assets/complex_modifications/1572145077.json ~/.conf
 ln -sf /usr/local/bin/gcc-11 /usr/local/bin/gcc
 ln -sf /usr/local/bin/g++-11 /usr/local/bin/g++
 # ln -sf $(ls -d /usr/local/bin/* | grep "/g++-" | sort -r | head -n1) /usr/local/bin/g++
+ln -sf ~/dotfiles/.config/nvim/init.vim ~/.config/nvim/init.vim
+ln -sf ~/dotfiles/vscode/settings.json ~/src/payroll/.vscode/settings.json
