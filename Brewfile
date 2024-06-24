@@ -33,6 +33,7 @@ brew 'kube-ps1'
 brew 'kubectx'
 brew 'stern'
 brew 'tmux'
+brew 'coreutils' # asdf-golang requires
 
 # cask (An extension of homebrew to install macOS native apps)
 cask_args appdir: '/Applications'

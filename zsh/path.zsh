@@ -9,4 +9,8 @@ export PATH=$PATH:/bin:/usr/bin:/usr/local/bin
 ############
 # https://asdf-vm.com/guide/getting-started.html#_3-install-asdf
 
-. $HOME/.asdf/asdf.sh
+. ~/.asdf/plugins/golang/set-env.zsh
+
+# homebrew & zsh
+# echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
