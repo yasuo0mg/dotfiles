@@ -20,7 +20,7 @@ $ xcode-select --install
 3. Clone this repo
 
 ```
-$ git clone https://github.com/omoriyasuo/dotfiles.git ~/dotfiles
+$ git clone https://github.com/yasuo0mg/dotfiles.git ~/dotfiles
 ```
 
 4. Install homebrew
@@ -34,7 +34,7 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 Installed packages are in `/usr/local/celler` and linked to `/usr/local/bin`.
 
 ```
-$ brew bundle ---global
+$ brew bundle --no-lock
 ```
 
 6. Create symbolic link
@@ -49,13 +49,6 @@ $ ./link.sh
 $ ./.macos
 ```
 
-### nvm
-
-```
-$ mkdir ~/.nvm
-$ nvm install 12.21.0 (for particular repository)
-```
-
 ### yarn
 
 ```
@@ -63,19 +56,7 @@ $ ln -s ~/.nvm/versions/node/v12.21.0 /usr/local/opt/node/
 $ brew install yarn --ignore-dependencies
 ```
 
-### VSCode
-
-Install extensions.
-
-```
-$ ./vscode/extensions.sh
-```
-
 ### Alfred4
 
 Go to preferences > Features.
 then check Folders and Images.
-
-### Screensaver
-
-Go to System Preferences > Desktop & Screen Saver > choose `Fliqlo`
