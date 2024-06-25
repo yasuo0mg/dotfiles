@@ -44,6 +44,7 @@ cask 'karabiner-elements'
 
 # Productivity
 cask 'alfred'
+cask 'rectangle' # ctrl + option + right/left/delete
 
 # Passwords, VPN
 cask '1password'
