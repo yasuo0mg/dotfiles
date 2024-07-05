@@ -34,6 +34,9 @@ brew 'kubectx'
 brew 'stern'
 brew 'tmux'
 brew 'coreutils' # asdf-golang requires
+brew 'docker'
+brew 'colima' # for docker
+brew 'protobuf'
 
 # cask (An extension of homebrew to install macOS native apps)
 cask_args appdir: '/Applications'
@@ -63,7 +66,7 @@ cask 'iterm2'
 cask 'sequel-ace'
 
 # Virtual Machines (& Docker)
-cask 'docker'
+# cask 'docker' since 2024/7/1 I use docker cli instead.
 
 # Communication/Social
 cask 'discord'
