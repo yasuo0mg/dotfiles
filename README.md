@@ -60,3 +60,7 @@ $ brew install yarn --ignore-dependencies
 
 Go to preferences > Features.
 then check Folders and Images.
+
+### iterm2
+
+To enable to copy clipboard in tmux sesison, move to Preferences > “General” tab, and in the “Selection” section, and check “Applications in terminal may access clipboard”.
