@@ -16,7 +16,6 @@ brew 'gh'
 brew 'hadolint'
 brew 'jq'
 brew 'peco'
-brew 'postgresql@14', restart_service: true
 brew 'redis'
 brew 'telnet'
 brew 'tree'
@@ -37,6 +36,9 @@ brew 'coreutils' # asdf-golang requires
 brew 'docker'
 brew 'colima' # for docker
 brew 'protobuf'
+brew 'iperf3' # TCP, UDP, and SCTP network bandwidth measurement tool
+brew 'nmap' # port scanner
+brew 'act' # run github actions locally
 
 # cask (An extension of homebrew to install macOS native apps)
 cask_args appdir: '/Applications'
@@ -64,6 +66,8 @@ cask 'postman'
 cask 'visual-studio-code'
 cask 'iterm2'
 cask 'sequel-ace'
+cask 'pgadmin4'
+cask 'wireshark'
 
 # Virtual Machines (& Docker)
 # cask 'docker' since 2024/7/1 I use docker cli instead.
