@@ -3,6 +3,7 @@ export PATH=$PATH:/opt/homebrew/bin
 export PATH=/opt/local/bin:/opt/local/sbin/:$PATH
 export PATH=~/.local/bin:$PATH
 export PATH=$PATH:/bin:/usr/bin:/usr/local/bin
+export PATH="$PATH:$(go env GOPATH)/bin" # for protoc compilers
 
 ############
 ### asdf ###
