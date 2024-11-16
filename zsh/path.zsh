@@ -15,3 +15,5 @@ export PATH="$PATH:$(go env GOPATH)/bin" # for protoc compilers
 # homebrew & zsh
 # echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+export ASDF_GOLANG_MOD_VERSION_ENABLED=false
