@@ -68,6 +68,7 @@ cask 'iterm2'
 cask 'sequel-ace'
 cask 'pgadmin4'
 cask 'wireshark'
+cask 'chatgpt'
 
 # Virtual Machines (& Docker)
 # cask 'docker' since 2024/7/1 I use docker cli instead.
