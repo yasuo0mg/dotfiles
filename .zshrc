@@ -8,4 +8,4 @@ source $ZSHHOME/path.zsh
 source $ZSHHOME/prompt.zsh
 source $ZSHHOME/k8s.zsh
 source $ZSHHOME/util.zsh
-source $ZSHHOME/monolyst.zsh
+source $ZSHHOME/work.zsh
