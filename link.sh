@@ -5,6 +5,7 @@ ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.gitconfig-work ~/.gitconfig-work
 ln -sf ~/dotfiles/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 ln -sf ~/dotfiles/karabiner/assets/complex_modifications/1572145077.json ~/.config/karabiner/assets/complex_modifications
 ln -sf ~/dotfiles/default-python-packages ~/.default-python-packages
