@@ -1,6 +1,7 @@
 [user]
-  email = omoriyasuo.dev@gmail.com
+  email = yasuo.cpff@gmail.com
   name = yasuo0mg
+
 [core]
   excludesfile = ~/.gitignore_global
   ignorecase = false
