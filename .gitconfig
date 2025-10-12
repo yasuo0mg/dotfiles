@@ -2,6 +2,8 @@
   email = yasuo.cpff@gmail.com
   name = yasuo0mg
 
+[includeIf "gitdir:~/github.com/work/"]
+  path = ~/.gitconfig-work
 [core]
   excludesfile = ~/.gitignore_global
   ignorecase = false
