@@ -58,6 +58,7 @@ cask '1password'
 cask 'firefox'
 
 # Development/Work
+cask 'claude-code'
 cask 'adobe-creative-cloud'
 cask 'chromedriver'
 cask 'jetbrains-toolbox'
