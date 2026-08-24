@@ -19,3 +19,8 @@ export PATH="$HOME/.local/share/aquaproj-aqua/bin:$PATH" # aqua
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 export ASDF_GOLANG_MOD_VERSION_ENABLED=false
+
+#############
+### mise ###
+#############
+eval "$(mise activate zsh)"
