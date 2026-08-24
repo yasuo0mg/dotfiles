@@ -7,19 +7,6 @@ export PATH="$PATH:$(go env GOPATH)/bin" # for protoc compilers
 export PATH="$HOME/.aqua/bin:$PATH" # aqua
 export PATH="$HOME/.local/share/aquaproj-aqua/bin:$PATH" # aqua
 
-############
-### asdf ###
-############
-# https://asdf-vm.com/guide/getting-started.html#_3-install-asdf
-
-. ~/.asdf/plugins/golang/set-env.zsh
-
-# homebrew & zsh
-# echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-
-export ASDF_GOLANG_MOD_VERSION_ENABLED=false
-
 #############
 ### mise ###
 #############
